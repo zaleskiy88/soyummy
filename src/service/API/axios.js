@@ -1,5 +1,5 @@
 import axios from "axios";
 
 export const axiosInstance = axios.create({
-  baseURL: "https://troubled-teal-fedora.cyclic.app",
+  baseURL: "https://souyummy-backend-yk52.onrender.com",
 });
