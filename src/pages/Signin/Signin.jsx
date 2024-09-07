@@ -88,7 +88,7 @@ const SignIn = () => {
                       name="email"
                       required
                       onChange={props.handleChange}
-                      placeholder="Email"
+                      placeholder="If you don't have an account, try: testuser@mail.com instead"
                       onBlur={props.handleBlur}
                       value={props.values.email}
                       color={getColor(props.errors.email, props.values.email, "rgba(255, 255, 255, 0.8)")}
@@ -106,7 +106,7 @@ const SignIn = () => {
                       name="password"
                       required
                       onChange={props.handleChange}
-                      placeholder="password"
+                      placeholder="If you don't have an account, try: testuser1"
                       onBlur={props.handleBlur}
                       value={props.values.password}
                       color={"rgba(255, 255, 255, 0.8)"}
